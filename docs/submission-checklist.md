@@ -19,10 +19,12 @@ Technical implementation completed and locally tested:
 - [x] README run commands, implementation design, issue drafts and PR template.
 - [x] New shared repository initialized: https://github.com/miikese/campusflow.
 - [x] Seven real GitHub issues with acceptance criteria, no invented human assignees.
+- [x] Code uploaded in three feature-group commits on feat/1-campusflow-helpdesk.
+- [x] Draft implementation PR: https://github.com/miikese/campusflow/pull/8.
 
 Authentic assessment evidence remains outstanding:
 
-- [ ] Tested code uploaded on feature branch, PR created, then genuine review before main integration.
+- [ ] Genuine partner review and approval before main integration.
 - [ ] Real team ID, fellow names, roles and collaborator access.
 - [ ] Both fellows agree on contracts and personally complete learning experiments.
 - [ ] Independently authored application code and tests from both fellows.

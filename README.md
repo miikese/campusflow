@@ -22,6 +22,14 @@ Open a terminal in this project directory:
 python3 main.py
 ```
 
+To download the implementation to another computer while its PR is under review:
+
+```sh
+git clone --branch feat/1-campusflow-helpdesk https://github.com/miikese/campusflow.git
+cd campusflow
+python3 main.py
+```
+
 For this workspace:
 
 ```sh
@@ -149,6 +157,8 @@ The shared repository is [miikese/campusflow](https://github.com/miikese/campusf
 The AI-authored implementation branch is `feat/1-campusflow-helpdesk`.
 The main branch contains initialization until genuine review and merging.
 No peer approval or reviewed PR is invented.
+[Draft implementation PR #8](https://github.com/miikese/campusflow/pull/8)
+contains the code and actual local test evidence.
 [The PR index](docs/pull-requests.md) tracks missing review evidence.
 
 Both fellows should contribute on separate `<type>/<actual-issue-number>-<description>`
