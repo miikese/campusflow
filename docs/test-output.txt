@@ -1,0 +1,57 @@
+Command: /usr/bin/python3 -m unittest discover -s tests -v
+Branch: feat/1-campusflow-helpdesk; local implementation snapshot, not reviewed main.
+
+test_corrupted_startup_stops_without_overwriting (test_cli.CliTests.test_corrupted_startup_stops_without_overwriting) ... ok
+test_demo_completes_without_writing_runtime_data (test_cli.CliTests.test_demo_completes_without_writing_runtime_data) ... ok
+test_empty_views_reports_and_unknown_id (test_cli.CliTests.test_empty_views_reports_and_unknown_id) ... ok
+test_end_of_input_exits_without_traceback (test_cli.CliTests.test_end_of_input_exits_without_traceback) ... ok
+test_eof_during_unfinished_creation_preserves_completed_ticket (test_cli.CliTests.test_eof_during_unfinished_creation_preserves_completed_ticket) ... ok
+test_exit_is_clean_and_read_only_session_creates_no_data (test_cli.CliTests.test_exit_is_clean_and_read_only_session_creates_no_data) ... ok
+test_failed_save_is_reported_and_damaged_file_is_preserved (test_cli.CliTests.test_failed_save_is_reported_and_damaged_file_is_preserved) ... ok
+test_full_menu_flow_and_restart (test_cli.CliTests.test_full_menu_flow_and_restart) ... ok
+test_invalid_choices_loop_until_exit (test_cli.CliTests.test_invalid_choices_loop_until_exit) ... ok
+test_invalid_counts_are_rejected_without_consuming_id (test_cli.CliTests.test_invalid_counts_are_rejected_without_consuming_id) ... ok
+test_keyboard_interrupt_saves_completed_changes (test_cli.CliTests.test_keyboard_interrupt_saves_completed_changes) ... ok
+test_corrupted_json_is_not_changed (test_storage.StorageTests.test_corrupted_json_is_not_changed) ... ok
+test_creation_after_reload_does_not_duplicate_ids (test_storage.StorageTests.test_creation_after_reload_does_not_duplicate_ids) ... ok
+test_duplicate_ids_and_json_keys_are_rejected (test_storage.StorageTests.test_duplicate_ids_and_json_keys_are_rejected) ... ok
+test_empty_collection_round_trip (test_storage.StorageTests.test_empty_collection_round_trip) ... ok
+test_failed_atomic_replace_preserves_original_and_cleans_temporary_file (test_storage.StorageTests.test_failed_atomic_replace_preserves_original_and_cleans_temporary_file) ... ok
+test_inconsistent_records_rejected_without_overwriting (test_storage.StorageTests.test_inconsistent_records_rejected_without_overwriting) ... ok
+test_invalid_record_shapes_and_types_rejected (test_storage.StorageTests.test_invalid_record_shapes_and_types_rejected) ... ok
+test_invalid_save_does_not_touch_existing_data (test_storage.StorageTests.test_invalid_save_does_not_touch_existing_data) ... ok
+test_invalid_utf8_is_reported (test_storage.StorageTests.test_invalid_utf8_is_reported) ... ok
+test_json_round_trip_preserves_all_fields (test_storage.StorageTests.test_json_round_trip_preserves_all_fields) ... ok
+test_missing_file_starts_fresh_without_creating_file (test_storage.StorageTests.test_missing_file_starts_fresh_without_creating_file) ... ok
+test_non_file_storage_path_is_reported (test_storage.StorageTests.test_non_file_storage_path_is_reported) ... ok
+test_all_rule_boundaries (test_tickets.PriorityTests.test_all_rule_boundaries) ... ok
+test_case_variations_are_normalized (test_tickets.PriorityTests.test_case_variations_are_normalized) ... ok
+test_high_twelve_is_critical (test_tickets.PriorityTests.test_high_twelve_is_critical) ... ok
+test_high_two_is_high (test_tickets.PriorityTests.test_high_two_is_high) ... ok
+test_low_four_is_medium (test_tickets.PriorityTests.test_low_four_is_medium) ... ok
+test_low_one_is_low (test_tickets.PriorityTests.test_low_one_is_low) ... ok
+test_blank_titles_and_invalid_enums_preserve_state (test_tickets.TicketTests.test_blank_titles_and_invalid_enums_preserve_state) ... ok
+test_creation_has_exact_fields_and_initial_state (test_tickets.TicketTests.test_creation_has_exact_fields_and_initial_state) ... ok
+test_ids_use_highest_number_even_with_gaps_and_unsorted_records (test_tickets.TicketTests.test_ids_use_highest_number_even_with_gaps_and_unsorted_records) ... ok
+test_invalid_counts_leave_existing_state_unchanged (test_tickets.TicketTests.test_invalid_counts_leave_existing_state_unchanged) ... ok
+test_list_handles_empty_and_protects_stored_records (test_tickets.TicketTests.test_list_handles_empty_and_protects_stored_records) ... ok
+test_lookup_normalizes_id_and_returns_copy (test_tickets.TicketTests.test_lookup_normalizes_id_and_returns_copy) ... ok
+test_unknown_or_invalid_ids_are_helpful (test_tickets.TicketTests.test_unknown_or_invalid_ids_are_helpful) ... ok
+test_valid_records_validate_without_mutating (test_tickets.TicketTests.test_valid_records_validate_without_mutating) ... ok
+test_zero_rejected_without_consuming_id (test_tickets.TicketTests.test_zero_rejected_without_consuming_id) ... ok
+test_empty_queue_and_report (test_workflow.QueueAndReportTests.test_empty_queue_and_report) ... ok
+test_queue_excludes_in_progress_and_resolved (test_workflow.QueueAndReportTests.test_queue_excludes_in_progress_and_resolved) ... ok
+test_queue_orders_all_priorities_and_numeric_ids (test_workflow.QueueAndReportTests.test_queue_orders_all_priorities_and_numeric_ids) ... ok
+test_report_counts_all_statuses_and_priorities (test_workflow.QueueAndReportTests.test_report_counts_all_statuses_and_priorities) ... ok
+test_assigned_ticket_follows_full_lifecycle (test_workflow.WorkflowTests.test_assigned_ticket_follows_full_lifecycle) ... ok
+test_blank_staff_and_unknown_id_do_not_mutate (test_workflow.WorkflowTests.test_blank_staff_and_unknown_id_do_not_mutate) ... ok
+test_invalid_transitions_preserve_state (test_workflow.WorkflowTests.test_invalid_transitions_preserve_state) ... ok
+test_mutator_results_are_independent_copies (test_workflow.WorkflowTests.test_mutator_results_are_independent_copies) ... ok
+test_reopen_requires_resolved_ticket (test_workflow.WorkflowTests.test_reopen_requires_resolved_ticket) ... ok
+test_resolved_protected_until_explicit_reopen (test_workflow.WorkflowTests.test_resolved_protected_until_explicit_reopen) ... ok
+test_unassigned_ticket_cannot_start_and_state_is_preserved (test_workflow.WorkflowTests.test_unassigned_ticket_cannot_start_and_state_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 1.807s
+
+OK
