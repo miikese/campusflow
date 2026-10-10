@@ -22,10 +22,10 @@ Open a terminal in this project directory:
 python3 main.py
 ```
 
-To download the implementation to another computer while its PR is under review:
+To download the implementation to another computer:
 
 ```sh
-git clone --branch feat/1-campusflow-helpdesk https://github.com/miikese/campusflow.git
+git clone https://github.com/miikese/campusflow.git
 cd campusflow
 python3 main.py
 ```
@@ -154,17 +154,19 @@ Both groups were AI-authored; human ownership must be confirmed and evidenced.
 ## GitHub and submission
 
 The shared repository is [miikese/campusflow](https://github.com/miikese/campusflow).
-The AI-authored implementation branch is `feat/1-campusflow-helpdesk`.
-The main branch contains initialization until genuine review and merging.
-No peer approval or reviewed PR is invented.
-[Draft implementation PR #8](https://github.com/miikese/campusflow/pull/8)
+The complete application is published on `main` at the repository owner's request,
+so its code, tests, documentation and source comments are visible on the repository home page.
+The original implementation branch is `feat/1-campusflow-helpdesk`.
+Human peer-review evidence remains outstanding.
+[Implementation PR #8](https://github.com/miikese/campusflow/pull/8)
 contains the code and actual local test evidence.
 [The PR index](docs/pull-requests.md) tracks missing review evidence.
 
 Both fellows should contribute on separate `<type>/<actual-issue-number>-<description>`
 branches and use their own identities. Each reviews the other's PR with at
 least two substantive observations and final approval after fixes and testing.
-Tests passing alone do not authorize merging.
+Publishing this AI-authored implementation does not establish those individual
+contributions or partner approvals.
 
 See [the submission checklist](docs/submission-checklist.md) for what is
 complete technically and what still requires real two-person participation.
