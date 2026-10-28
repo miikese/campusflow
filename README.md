@@ -33,7 +33,7 @@ python3 main.py
 For this workspace:
 
 ```sh
-cd /home/student/campus
+cd /home/student/miikese-projects/campusflow
 python3 main.py
 ```
 
